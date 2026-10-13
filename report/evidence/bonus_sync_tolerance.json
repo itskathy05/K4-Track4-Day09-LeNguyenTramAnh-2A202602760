@@ -1,0 +1,29 @@
+{
+  "experiment": "sync_tolerance",
+  "student_id": "2A202602760",
+  "source": "silver.frame_telemetry Delta snapshot; 1246 sampled frames",
+  "method": "Recomputed the model SQL predicate sync_gap_ms <= sync_tol_ms on the saved frame_telemetry snapshot; Gold keep filters also applied (not black, not blurry, not near-duplicate).",
+  "baseline_sync_tol_ms": 150,
+  "experiment_sync_tol_ms": 50,
+  "baseline_sync_lost_by_drive": {
+    "drive_b": 7,
+    "drive_a": 7
+  },
+  "sync_lost_at_50ms_by_drive": {
+    "drive_b": 328,
+    "drive_a": 272
+  },
+  "baseline_gold_frames_by_drive": {
+    "drive_b": 583,
+    "drive_a": 436
+  },
+  "gold_frames_at_50ms_by_drive": {
+    "drive_b": 296,
+    "drive_a": 242
+  },
+  "baseline_gold_frames": 1019,
+  "gold_frames_at_50ms": 538,
+  "gold_frames_removed": 481,
+  "gold_frames_change_percent": -47.2,
+  "created_at": "2026-10-13T08:18:11.3440518Z"
+}
